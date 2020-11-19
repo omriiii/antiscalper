@@ -23,7 +23,6 @@ If they are, the program will open up the page in your default browser and play 
 
 `query_urls`   -- All the storefront links you want to check every `refresh_rate` seconds.
 
-
 ### 2. install dependecies
 Open up a terminal/command line, change directories to this project's directory and insert the following command:
 ```
