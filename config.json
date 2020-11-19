@@ -1,0 +1,11 @@
+
+{
+  "refresh_rate": 10,
+  "product_name": "geforce rtx 3070",
+  "print_queries": false,
+  "max_budget": 700,
+  "query_urls": [
+        "https://www.bhphotovideo.com/c/search?Ntt=rtx%203070",
+        "https://www.bestbuy.com/site/searchpage.jsp?st=rtx+3070",
+        "https://www.newegg.com/p/pl?d=Geforce+RTX+3070&PageSize=96&LeftPriceRange=0+700" ]
+}
