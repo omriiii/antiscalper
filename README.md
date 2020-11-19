@@ -3,6 +3,7 @@ This is a program I made to help me buy a Geforce RTX 3070!
 
 ### Note & Disclaimer
 *Please don't use this for scalping.* ***Scalpers are scum.***
+
 By using this program you run the risk of having your IP address banned from these storefronts while using this program. (This can be circumvented by using a proxy but I'm lazy)
 
 As of right now, this program will only work with Newegg, B&H and BestBuy. You'll also need Python installed.
