@@ -17,17 +17,14 @@ If they are, the program will open up the page in your default browser and play 
 
 `refresh_rate` -- The rate at which your computer will query all pages (in seconds).
 
-`product_name` -- Product name of what you wish to buy (Duh).
+`product_name` -- Product name of what you want to buy (Duh).
 
 `max_budget`   -- Maximum amount of dollars you're willing to spend on a purchasable product.
 
 `query_urls`   -- All the storefront links you want to check every `refresh_rate` seconds.
 
 ### 2. install dependecies
-Open up a terminal/command line, change directories to this project's directory and insert the following command:
-```
-pip install -r requirements.txt
-```
+Run `install-reqs.bat`.
 
 ### 3. run!
-Just click on `run.bat` and you're set. Good luck on getting your product.
+Run on `run.bat` and you're set! Good luck on getting your product.
