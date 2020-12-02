@@ -6,7 +6,7 @@ This is a program I made to help me buy a Geforce RTX 3070!
 
 By using this program you run the risk of having your IP address banned from these storefronts. (This can be circumvented by using a proxy but I'm lazy)
 
-To get this to run you'll need [Python](https://www.python.org/downloads/) installed.
+To get this to run you'll need [Python](https://www.python.org/downloads/) installed and make sure its [added to your enviorment variables](https://cdn.discordapp.com/attachments/782031383501078538/782050193892966462/gRyw8.png).
 
 ### How does it work?
 This program will go to a set of storefront links (eg. Amazon, Newegg) and give you back if any of the products in those store fronts are purchaseable.
