@@ -32,5 +32,5 @@ Run `run.bat` and you're set! Good luck on getting your product.
 ## Troubleshooting 
 If you've been running the bot for some time and things don't work then try these! 
 1. You can verify the bot work by asking the bot to find something that IS in stock (eg. usb/hdmi cable are always in stock generally). You'd have to modify `config.json` to look for these items obviously. 
-2. Your IP address has been blacklisted (temporarily or permantnly). You can verify this by just going to that website in your own browser (eg. Chrome/Firefox/Safari) and seeing if you get blocked or not
-3. The templating of these websites has changed and I need to update the bot for it -- in which case, message me on Twitter or create an issue for this repo and I'll fix it! [@omrii_](https://twitter.com/omrii_)
+2. Your IP address has been blacklisted (temporarily or permanently). You can verify this by just going to that website in your own browser (eg. Chrome/Firefox/Safari) and seeing if you get blocked or not. From my experience B&H will put you a temporary "naughty list" that asks you do to a captcha when you visit their site. I'm not sure about Newegg and BestBuy. 
+3. The templating of these websites has changed and I need to update the bot for it -- in which case, [message me on Twitter (@omrii_)]((https://twitter.com/omrii_)) or create an [Issue in this repo](https://github.com/omriiii/antiscalper/issues).
