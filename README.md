@@ -30,4 +30,7 @@ Run `install-reqs.bat`.
 Run `run.bat` and you're set! Good luck on getting your product.
 
 ## Troubleshooting 
-Firstly you should make sure the program works in general. You can verify if it does work by asking the bot to find something that's always in stock (eg. Intel i7, hdmi cable or something). You'd have to modify `config.json` to look for these items obviously. If that doesn't work either then either 1.) your IP address has been blacklisted (temporarily or permantnly), the bot can't find the pages on the storefront (you can verify this by just going to that website in your own browser (eg. Chrome/Firefox/Safari) or 2.) The templating of these websites has changed and I need to update the bot for it -- in which case, message me on Twitter and I'll fix it! [@omrii_](https://twitter.com/omrii_)
+If you've been running the bot for some time and things don't work then try these! 
+1. You can verify the bot work by asking the bot to find something that IS in stock (eg. usb/hdmi cable are always in stock generally). You'd have to modify `config.json` to look for these items obviously. 
+2. Your IP address has been blacklisted (temporarily or permantnly). You can verify this by just going to that website in your own browser (eg. Chrome/Firefox/Safari) and seeing if you get blocked or not
+3. The templating of these websites has changed and I need to update the bot for it -- in which case, message me on Twitter or create an issue for this repo and I'll fix it! [@omrii_](https://twitter.com/omrii_)
