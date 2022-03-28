@@ -1,6 +1,9 @@
 # antiscalper
 This is a program I made to help me buy a Geforce RTX 3070!
 
+***NOTE: As of March 2022 (or potentially earlier), this code is outdated. 
+If you wish to use this tool, you'd would need to update the HTML parsing function (`getProducts(url)`) to parse the new website's HTML template.***
+
 ### Note & Disclaimer
 *Please don't use this for scalping.* ***Scalpers are scum.***
 
