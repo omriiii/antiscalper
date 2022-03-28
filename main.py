@@ -149,16 +149,25 @@ def drawSpinny():
 
 if __name__ == "__main__":
 
-    #   Config Stuff
+    # Config Stuff
     config = default_config
     if(len(sys.argv) > 1):
         config_file = sys.argv[1]
         f = open(config_file, "r")
         config = json.loads(f.read())
 
-    if not default_config["print_queries"]:
+    if not config["print_queries"]:
         spinny_thread = threading.Thread(target=drawSpinny, daemon=True)
         spinny_thread.start()
-
+        
+    # Test Existing Code (maybe something is broken!!)
+    for query_url in config["query_urls"]:
+        try:
+            getProducts(query_url)
+        except:
+          print("\nThe template for " + query_url.split("://")[1].split("/")[0] + " has changed.") 
+          print("Please update this script/contact it's developer to fix it.")
+          exit()
+    
     # Run
     main(config)
