@@ -25,6 +25,7 @@ If they are, the program will open up the page in your default browser and play 
 `max_budget`   -- Maximum amount of dollars you're willing to spend on a purchasable product.
 
 `query_urls`   -- All the storefront links you want to check every `refresh_rate` seconds. (Only supports Newegg, B&H and BestBuy)
+
 ** An example `config.json` file is in this repository (It's the same one I used to get my 3070)
 
 ### 2. install dependecies
